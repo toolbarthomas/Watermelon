@@ -2,7 +2,7 @@
     "name": "watermelon",
     "displayName": "Watermelon",
     "description": "Dark theme with fruity colors",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "toolbarthomas",
     "engines": {
         "vscode": "^1.12.0"
