@@ -1,0 +1,22 @@
+{
+    "name": "watermelon",
+    "displayName": "Watermelon",
+    "description": "Dark theme with fruity colors",
+    "version": "0.0.1",
+    "publisher": "toolbarthomas",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Watermelon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Watermelon-color-theme.json"
+            }
+        ]
+    }
+}
