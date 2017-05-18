@@ -1,13 +1,13 @@
-# README
-## This is the README for your extension "watermelon"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Watermelon
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+A dark theme with fruity colors
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Original Theme's Github Page [Watermelon](https://github.com/toolbarthomas/Watermelon).
 
-**Enjoy!**
+## Screenshot
+![](https://raw.githubusercontent.com/toolbarthomas/Watermelon/master/watermelon/screenshot.png).
+
+
+## More Information
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-3024Day).
+* [GitHub repository](https://github.com/toolbarthomas/Watermelon).
