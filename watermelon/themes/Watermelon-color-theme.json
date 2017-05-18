@@ -42,7 +42,7 @@
 			"name": "SublimeLinter Violation Outline",
 			"scope": "sublimelinter.outline.violation",
 			"settings": {
-				"background": "#ffffff33",
+				"background": "#333",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -87,7 +87,7 @@
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#4ab0ff"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#4ab0ff"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -135,7 +135,7 @@
 			"scope": "entity.name.class",
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#A6E22E"
+				"foreground": "#70aaeb"
 			}
 		},
 		{
@@ -150,8 +150,7 @@
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#A6E22E"
+				"foreground": "#4fe448"
 			}
 		},
 		{
@@ -166,7 +165,6 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#f5b079"
 			}
 		},
@@ -182,15 +180,13 @@
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#A6E22E"
+				"foreground": "#53d5ed"
 			}
 		},
 		{
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#4ab0ff"
 			}
 		},
@@ -201,8 +197,7 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#96c8c8"
+				"foreground": "#53d5ed"
 			}
 		},
 		{
@@ -269,12 +264,12 @@
 		}
 	],
 	"colors": {
-		"editor.background": "#0d0d0d",
+		"editor.background": "#19181c",
 		"editorCursor.foreground": "#F8F8F0",
 		"editor.foreground": "#888",
 		"editorWhitespace.foreground": "#3B3A32",
 		"editor.lineHighlightBackground": "#000",
-		"editor.selectionBackground": "#000"
+		"editor.selectionBackground": "#0d0d0e"
 	},
 	"name": "Watermelon"
 }
