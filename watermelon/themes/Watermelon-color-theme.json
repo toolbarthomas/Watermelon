@@ -1,93 +1,38 @@
 {
 	"tokenColors": [
 		{
-			"name": "SublimeLinter Annotations",
-			"scope": "sublimelinter.annotations",
 			"settings": {
-				"background": "#FFFFAA",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "SublimeLinter Error Outline",
-			"scope": "sublimelinter.outline.illegal",
-			"settings": {
-				"background": "#FF4A52",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "SublimeLinter Error Underline",
-			"scope": "sublimelinter.underline.illegal",
-			"settings": {
-				"background": "#FF0000"
-			}
-		},
-		{
-			"name": "SublimeLinter Warning Outline",
-			"scope": "sublimelinter.outline.warning",
-			"settings": {
-				"background": "#DF9400",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "SublimeLinter Warning Underline",
-			"scope": "sublimelinter.underline.warning",
-			"settings": {
-				"background": "#FF0000"
-			}
-		},
-		{
-			"name": "SublimeLinter Violation Outline",
-			"scope": "sublimelinter.outline.violation",
-			"settings": {
-				"background": "#333",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "SublimeLinter Violation Underline",
-			"scope": "sublimelinter.underline.violation",
-			"settings": {
-				"background": "#FF0000"
-			}
-		},
-		{
-			"settings": {
-				"background": "#0d0d0d",
-				"foreground": "#888",
-				"findHighlight": "#FFE792",
-				"findHighlightForeground": "#000000",
-				"selectionBorder": "#666"
+				"background": "#19181C",
+				"foreground": "#B2B9BDBF"
 			}
 		},
 		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#555"
+				"foreground": "#555555"
 			}
 		},
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#b5e7a1"
+				"fontStyle": "italic",
+				"foreground": "#AAE384"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#4ab0ff"
+				"foreground": "#0099FF"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#E7F29F"
 			}
 		},
 		{
@@ -97,67 +42,62 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#E7F29F"
 			}
 		},
 		{
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#ff7660"
+				"foreground": "#FF3B3B"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#F92672"
+				"foreground": "#F7548D"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#e78cbd"
+				"foreground": "#F7548D"
 			}
 		},
 		{
 			"name": "Class name",
 			"scope": "entity.name.class",
 			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#70aaeb"
+				"foreground": "#EB6F6F"
 			}
 		},
 		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"fontStyle": "italic underline",
-				"foreground": "#A6E22E"
+				"foreground": "#A1FF3D"
 			}
 		},
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#4fe448"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FD971F"
 			}
 		},
@@ -165,29 +105,29 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#f5b079"
+				"foreground": "#F92672"
 			}
 		},
 		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#fa7878"
+				"foreground": "#70AAEB"
 			}
 		},
 		{
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#53d5ed"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#4ab0ff"
+				"fontStyle": "",
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -197,22 +137,19 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#53d5ed"
+				"foreground": "#099866"
 			}
 		},
 		{
 			"name": "Library variable",
 			"scope": "support.other.variable",
-			"settings": {
-				"fontStyle": ""
-			}
+			"settings": {}
 		},
 		{
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
 				"background": "#F92672",
-				"fontStyle": "",
 				"foreground": "#F8F8F0"
 			}
 		},
@@ -225,51 +162,55 @@
 			}
 		},
 		{
-			"name": "JSON String",
-			"scope": "meta.structure.dictionary.json string.quoted.double.json",
+			"name": "Css3",
+			"scope": "source.css meta.property-list.css meta.property-name.css support.type.property-name.css",
 			"settings": {
-				"foreground": "#CFCFC2"
+				"foreground": "#8DE3E3"
 			}
 		},
 		{
-			"name": "diff.header",
-			"scope": [
-				"meta.diff",
-				"meta.diff.header"
-			],
+			"name": "CSS",
+			"scope": "source.css meta.property-list.css meta.property-name.css",
 			"settings": {
-				"foreground": "#75715E"
+				"foreground": "#8DE3E3"
 			}
 		},
 		{
-			"name": "diff.deleted",
-			"scope": "markup.deleted",
+			"name": "CSS Selector",
+			"scope": "source.css meta.selector.css entity.other.attribute-name",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#FA7878"
 			}
 		},
 		{
-			"name": "diff.inserted",
-			"scope": "markup.inserted",
+			"name": "CSS tag",
+			"scope": "source.css meta.selector.css entity.name.tag.css",
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#E7F29F"
 			}
 		},
 		{
-			"name": "diff.changed",
-			"scope": "markup.changed",
+			"name": "tag",
+			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#EBD17BD9"
+			}
+		},
+		{
+			"name": "attr",
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#FA7878"
 			}
 		}
 	],
 	"colors": {
-		"editor.background": "#19181c",
-		"editorCursor.foreground": "#F8F8F0",
-		"editor.foreground": "#888",
-		"editorWhitespace.foreground": "#3B3A32",
-		"editor.lineHighlightBackground": "#000",
-		"editor.selectionBackground": "#0d0d0e"
+		"editor.background": "#19181C",
+		"editorCursor.foreground": "#FFFFFFCC",
+		"editor.foreground": "#B2B9BDBF",
+		"editorWhitespace.foreground": "#5C5C5C",
+		"editor.lineHighlightBackground": "#FFFFFF1A",
+		"editor.selectionBackground": "#FFFFFF1A"
 	},
 	"name": "Watermelon"
 }

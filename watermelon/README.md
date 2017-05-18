@@ -5,7 +5,7 @@ A dark theme with fruity colors
 Original Theme's Github Page [Watermelon](https://github.com/toolbarthomas/Watermelon).
 
 ## Screenshot
-![](https://raw.githubusercontent.com/toolbarthomas/Watermelon/master/watermelon/screenshot.png).
+![](http://raw.githubusercontent.com/toolbarthomas/Watermelon/master/watermelon/screenshot.png).
 
 
 ## More Information
