@@ -2,15 +2,14 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"background": "#19181C",
-				"foreground": "#B2B9BDBF"
+				"foreground": "#B5B5B5"
 			}
 		},
 		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#555555"
+				"foreground": "#757575"
 			}
 		},
 		{
